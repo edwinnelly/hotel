@@ -47,6 +47,19 @@ class Manager
         }
     }
 
+    public function executeQuery_multiple($sql, $params = [])
+    {
+        try {
+            $stmt = $this->pdo->prepare($sql);
+            $stmt->execute($params);
+            // echo "Success"; // Print success message
+        } catch (PDOException $e) {
+            error_log('Execute Error: ' . $e->getMessage());
+            echo '<p>An error occurred while executing the query.</p>'; // Print error message
+        }
+    }
+
+
     public function fetchData($sql, $params = [])
     {
         try {

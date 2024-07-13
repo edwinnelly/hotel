@@ -6,15 +6,9 @@
                             <ul class="list">
                                 <li class="header">MAIN</li>
                                 <li class="active open">
-                                    <a href="javascript:void(0);" class="menu-toggle"><i
+                                    <a href="app.php" class="menu-toggle"><i
                                             class="zmdi zmdi-home"></i><span>Dashboard</span></a>
-                                    <ul class="ml-menu">
-                                        <li><a href="../index.html">Analytics Dashboard</a></li>
-                                        <li><a href="../hopital/index.html">Hospital Template</a></li>
-                                        <li><a href="../hr/index.html">HRMS Template</a></li>
-                                        <li><a href="../university/index.html">University Template</a></li>
-                                        <li class="active"><a href="index.html">RealEstate Template</a></li>
-                                    </ul>
+                                    
                                 </li>
                                 <li><a href="javascript:void(0);" class="menu-toggle"><i
                                             class="zmdi zmdi-apps"></i><span>App</span></a>
@@ -40,7 +34,7 @@
                                         <li><a href="agent-invoices.html">Invoice</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="agencies.html"><i class="zmdi zmdi-map"></i><span>Agencies</span></a></li>
+                                <!-- <li><a href="agencies.html"><i class="zmdi zmdi-map"></i><span>Agencies</span></a></li> -->
                                 <li>
                                     <a href="javascript:void(0);" class="menu-toggle"><i
                                             class="zmdi zmdi-account-circle"></i><span>Property</span></a>
@@ -56,21 +50,20 @@
                                             class="zmdi zmdi-account-circle"></i><span>Business Manager</span></a>
                                     <ul class="ml-menu">
                                     <li><a href="business_list.php">Manage Business</a></li>
-                                        <li><a href="type-apartment.html">Apartment</a></li>
+                                        <!-- <li><a href="type-apartment.html">Apartment</a></li>
                                         <li><a href="type-office.html">Corporate Office</a></li>
                                         <li><a href="type-shop.html">Shopping Mall</a></li>
                                         <li><a href="type-bungalows.html">Bungalows / Villa</a></li>
                                         <li><a href="javascript:void(0);">Farm House</a></li>
                                         <li><a href="javascript:void(0);">Weekend House</a></li>
                                         <li><a href="javascript:void(0);">WareHouse</a></li>
-                                        <li><a href="javascript:void(0);">Party Plot</a></li>
+                                        <li><a href="javascript:void(0);">Party Plot</a></li> -->
                                     </ul>
                                 </li>
                                 <li><a
                                         href="https://www.thememakker.com/templates/amaze/html/dist/realestate/category.html"><i
                                             class="zmdi zmdi-map"></i><span>Category</span></a></li>
-                                <li><a href="our-center.html"><i class="zmdi zmdi-map"></i><span>Construction
-                                            Site</span></a></li>
+                                
                                 <li class="header">EXTRA PAGES</li>
                                 <li><a href="javascript:void(0);" class="menu-toggle"><i
                                             class="zmdi zmdi-lock"></i><span>Auth</span></a>

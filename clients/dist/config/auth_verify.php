@@ -1,6 +1,13 @@
 <?php
-session_start();
+// Set security headers
+header('Content-Security-Policy: default-src \'self\'');
+header('X-Content-Type-Options: nosniff');
+header('X-Frame-Options: DENY');
+header('X-XSS-Protection: 1; mode=block');
+?>
 
+<?php
+session_start();
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);

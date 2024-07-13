@@ -1,5 +1,7 @@
 <?php
 include "../config/auth_verify.php";
+//hotel id
+$hotelid = base64_decode($app->get_request('hotelid'));
 ?>
 <!doctype html>
 <html class="no-js " lang="en">
@@ -40,12 +42,14 @@ include "../config/auth_verify.php";
                         <div class="col-lg-6 col-md-12">
                             <ul class="breadcrumb pl-0 pb-0 ">
                                 <li class="breadcrumb-item"><a href="app">Home</a></li>
-                                <li class="breadcrumb-item active">Business</li>
+                                <li class="breadcrumb-item active">Hotel</li>
                             </ul>
-                            <h1 class="mb-1 mt-1">Business Manager</h1>
+                            <h1 class="mb-1 mt-1">Hotel Manager / Amenities</h1>
                         </div>
                         <div class="col-lg-6 col-md-12 text-md-right">
-                            <a href="add_business.php" class="btn btn-secondary">Add Business</a>
+                            <a href="add_business.php" class="btn btn-secondary">Manage Hotel</a>
+                            <a href="add_aminities.php?hotelid=<?php echo base64_encode($hotelid); ?>" class="btn btn-secondary">Add Amenities</a>
+                            
                         </div>
                     </div>
                 </div>
@@ -60,15 +64,9 @@ include "../config/auth_verify.php";
                                     <table class="table table-borderless table-hover js-basic-example dataTable">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Username</th>
-                                                <th>Contact</th>
-                                                <th>Agents</th>
-                                                <th>Country</th>
-                                                <th>State</th>
-                                                <th>Rating</th>
-                                                <th>Status</th>
-                                                <th>Creation Date</th>
+                                                <th>ID</th>
+                                                <th>Amenities</th>
+                                                
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
@@ -86,29 +84,10 @@ include "../config/auth_verify.php";
                                                 ?>
                                                 <tr>
                                                     <td class="d-flex">
-                                                        <a href=""><img class="img-fluid rounded w60" src="business.webp"
-                                                                alt="Business img"></a>
-                                                        <div class="ml-3">
-                                                            <strong><?php echo $hotels_list['business_name']; ?></strong>
-                                                            <div class="font-13 text-muted hidden-md"><i
-                                                                    class="zmdi zmdi-pin"></i>
-                                                                <?php echo $hotels_list['address']; ?></div>
-                                                        </div>
+                                                       1
                                                     </td>
-                                                    <td><?php echo $hotels_list['username']; ?></td>
-                                                    <td><?php echo $hotels_list['phone']; ?></td>
-                                                    <td><?php echo $hotels_list['agent_id']; ?></td>
-                                                    <td><?php echo $hotels_list['country']; ?></td>
-                                                    <td><?php echo $hotels_list['hotel_state']; ?></td>
-
-
-                                                    <td><?php echo '***'; ?></td>
-                                                    <td><?php echo ($hotels_list['activation'] == 'no') ? "Inactive" : "Active"; ?>
-                                                    </td>
-
-                                                    <td><strong
-                                                            class="text-info"><?php echo $hotels_list['added_date']; ?></strong>
-                                                    </td>
+                                                    <td></td>
+                                                    
                                                     <td>
                                                     <div class="dropdown show">
                                                             <a class="btn btn-secondary dropdown-toggle" href="#"
@@ -119,7 +98,7 @@ include "../config/auth_verify.php";
 
                                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                                             
-                                                                <a class="dropdown-item" href="hotel.php?hotelid=<?php echo base64_encode($hotels_list['business_account']); ?>">Hotel</a>  
+                                                                <a class="dropdown-item" href="">Hotel</a>  
                                                                 <a class="dropdown-item" href="">Stays</a> 
                                                                 <a class="dropdown-item" href="">Cars</a> 
                                                                 <a class="dropdown-item" href="">Rentals</a>

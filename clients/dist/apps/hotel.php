@@ -1,5 +1,7 @@
 <?php
 include "../config/auth_verify.php";
+//hotel id
+$hotelid = base64_decode($app->get_request('hotelid'));
 ?>
 <!doctype html>
 <html class="no-js " lang="en">
@@ -40,12 +42,15 @@ include "../config/auth_verify.php";
                         <div class="col-lg-6 col-md-12">
                             <ul class="breadcrumb pl-0 pb-0 ">
                                 <li class="breadcrumb-item"><a href="app">Home</a></li>
-                                <li class="breadcrumb-item active">Business</li>
+                                <li class="breadcrumb-item active">Hotel</li>
                             </ul>
-                            <h1 class="mb-1 mt-1">Business Manager</h1>
+                            <h1 class="mb-1 mt-1">Hotel Manager / Rooms</h1>
                         </div>
                         <div class="col-lg-6 col-md-12 text-md-right">
-                            <a href="add_business.php" class="btn btn-secondary">Add Business</a>
+                            <a href="manage_aminities.php?hotelid=<?php echo base64_encode($hotelid); ?>" class="btn btn-secondary">Manage Amenities</a>
+                            <a href="add_business.php" class="btn btn-secondary">Hotel surroundings</a>
+                            <a href="add_business.php" class="btn btn-secondary">House rules</a>
+                            <a href="add_business.php" class="btn btn-secondary">Add Rooms</a>
                         </div>
                     </div>
                 </div>
@@ -61,14 +66,14 @@ include "../config/auth_verify.php";
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
-                                                <th>Username</th>
-                                                <th>Contact</th>
-                                                <th>Agents</th>
-                                                <th>Country</th>
-                                                <th>State</th>
-                                                <th>Rating</th>
+                                                <th>Room Pass</th>
+                                                <th>Room No</th>
+                                                <th>Room Type</th>
+                                                <th>Price</th>
+                                                <th>Availability</th>
+                                                <th>Amenities</th>
+                                                <th>Max Occupancy</th>
                                                 <th>Status</th>
-                                                <th>Creation Date</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
@@ -119,7 +124,7 @@ include "../config/auth_verify.php";
 
                                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                                             
-                                                                <a class="dropdown-item" href="hotel.php?hotelid=<?php echo base64_encode($hotels_list['business_account']); ?>">Hotel</a>  
+                                                                <a class="dropdown-item" href="">Hotel</a>  
                                                                 <a class="dropdown-item" href="">Stays</a> 
                                                                 <a class="dropdown-item" href="">Cars</a> 
                                                                 <a class="dropdown-item" href="">Rentals</a>

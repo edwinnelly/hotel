@@ -121,7 +121,7 @@ include "../config/auth_verify.php";
                                                             
                                                                 <a class="dropdown-item" href="hotel.php?hotelid=<?php echo base64_encode($hotels_list['business_account']); ?>">Hotel</a>  
                                                                 <a class="dropdown-item" href="">Stays</a> 
-                                                                <a class="dropdown-item" href="">Cars</a> 
+                                                                <a class="dropdown-item" href="cars.php">Cars</a> 
                                                                 <a class="dropdown-item" href="">Rentals</a>
                                                                 <a class="dropdown-item" href="">Cruise</a>          
                                                             </div>

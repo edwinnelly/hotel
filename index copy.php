@@ -63,27 +63,11 @@
 
 
 		<!-- ============================ Hero Banner  Start================================== -->
-		
-		<div class="image-cover hero-header bg-white" style="position: relative; overflow: hidden; height: 100vh;"
-			data-overlay="5">
-			<!-- Video Background -->
-			<video autoplay muted loop id="backgroundVideo"
-				style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-				<source src="imgs/hotel1.mp4"
-					type="video/mp4">
-				Your browser does not support the video tag.
-			</video>
-
+		<div class="image-cover hero-header bg-white" style="background:url('imgs/banners.jpeg')no-repeat;" data-overlay="5">
 			<div class="container">
-				<!-- Content here -->
 
-				<div class="image-cover hero-header" style="position: relative; overflow: hidden;" data-overlay="5">
-					<!-- Video Background -->
-
-
-					<div class="container">
-						<!-- Search Form -->
-						<div class="row justify-content-center align-items-center">
+				<!-- Search Form -->
+				<div class="row justify-content-center align-items-center">
 
 					<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12">
 						<div class="position-relative text-center mb-5">
@@ -185,13 +169,10 @@
 						</div>
 					</div>
 				</div>
-					</div>
-				</div>
+				<!-- </row> -->
+
 			</div>
 		</div>
-		
-		
-		
 		<!-- ============================ Hero Banner End ================================== -->
 
 

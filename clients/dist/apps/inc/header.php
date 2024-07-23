@@ -14,13 +14,7 @@
                                     <span class="ml-1 mr-1">Currently:</span>
                                     <div class="dropdown">
                                         <button type="button" class="btn btn-secondary dropdown-toggle"
-                                            data-toggle="dropdown">Supper Admin</button>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="javascript:void(0);">thememakker.com</a>
-                                            <a class="dropdown-item" href="javascript:void(0);">thememakker.in</a>
-                                            <a class="dropdown-item" href="javascript:void(0);">thememakker.com</a>
-                                            <a class="dropdown-item" href="javascript:void(0);">iconic.in</a>
-                                        </div>
+                                            data-toggle="dropdown">Super Admin</button>
                                     </div>
                                 </div>
                                 <ul class="navbar">

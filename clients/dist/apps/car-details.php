@@ -116,8 +116,8 @@
                                                 <i class="zmdi zmdi-star text-warning"></i>
                                                 <i class="zmdi zmdi-star text-warning"></i>
                                             </span>
-                                            <h5>Luxury Family Home</h5>
-                                            <p><i class="zmdi zmdi-map-pin font-13"></i> 1421 San Pedro St, Los Angeles,
+                                            <h5>Camry 2005</h5>
+                                            <p><i class="zmdi zmdi-map-pin font-13"></i> Pick-Up: 1421 San Pedro St, Los Angeles,
                                                 CA 90015</p>
                                             <ul class="list-unstyled property-info">
                                                 <li class="list-inline-item"><a href="property-detail.html#">Beds:
@@ -149,49 +149,50 @@
                             </div>
                             <div class="body">
                                 <ul class="row list-unstyled amenities-list mb-0">
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Swimming
-                                        pool</li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Air
-                                        conditioning</li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Internet
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Air Conditioning</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Heated Seats</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Adjustable Seats
                                     </li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Radio
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Power Windows
                                     </li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Balcony
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Leather Upholstery
                                     </li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Roof
-                                        terrace</li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Cable TV
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Bluetooth Connectivity</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>USB Ports
                                     </li>
                                     <li class="col-lg-4 col-md-5 col-sm-6"><i
-                                            class="zmdi zmdi-check mr-1"></i>Electricity</li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Terrace
+                                            class="zmdi zmdi-check mr-1"></i>Audio System (CD/MP3)</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Touchscreen Display
                                     </li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Cofee pot
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Satellite Radio
                                     </li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Oven</li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Towelwes
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Airbags (Front and Side)</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Anti-lock Braking System (ABS)
                                     </li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Computer
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Stability Control
                                     </li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Grill
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Rearview Camera
                                     </li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Parquet
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Parking Sensors
                                     </li>
                                     <li class="col-lg-4 col-md-5 col-sm-6"><i
-                                            class="zmdi zmdi-check mr-1"></i>Dishwasher</li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Near
-                                        Green Zone</li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Near
-                                        Church</li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Near
-                                        Hospital</li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Near
-                                        School</li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Near Shop
+                                            class="zmdi zmdi-check mr-1"></i>Keyless Entry</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Cruise Control</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Navigation System</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Remote Start</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Luggage Rack</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>All-Wheel Drive (AWD) or Four-Wheel Drive (4WD)
                                     </li>
-                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Natural
-                                        Gas</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Turbocharged Engine</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Manual/Automatic Transmission Options</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Smart Key Technology</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Wi-Fi Hotspot</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Smartphone Integration (Apple CarPlay, Android Auto)</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Electric Vehicle Charging Options</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Child Seat Availability</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Roof Railing</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Sunroof/Moonroof</li>
+                                    <li class="col-lg-4 col-md-5 col-sm-6"><i class="zmdi zmdi-check mr-1"></i>Tow Package</li>
                                 </ul>
                             </div>
                         </div>

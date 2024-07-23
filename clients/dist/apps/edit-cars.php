@@ -43,9 +43,9 @@
                         <div class="col-lg-6 col-md-12">
                             <ul class="breadcrumb pl-0 pb-0 ">
                                 <li class="breadcrumb-item"><a href="app">Home</a></li>
-                                <li class="breadcrumb-item active">Cars</li>
+                                <li class="breadcrumb-item active">Edit Cars</li>
                             </ul>
-                            <h1 class="mb-1 mt-1">Add Cars</h1>
+                            <h1 class="mb-1 mt-1">Cars</h1>
                         </div>
                         <div class="col-lg-6 col-md-12 text-md-right">
                             <a href="cars.php" class="btn btn-success text-white">Manage Cars</a>
@@ -326,7 +326,7 @@
                                     </div>
                                     <div class="col-sm-12">
                                         <div class="mt-4">
-                                            <button type="submit" class="btn btn-primary">Add</button>
+                                            <button type="submit" class="btn btn-primary">Save</button>
                                             <button type="submit" class="btn btn-default">Cancel</button>
                                         </div>
                                     </div>

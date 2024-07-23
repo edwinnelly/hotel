@@ -152,7 +152,7 @@
 
                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                                         <a class="dropdown-item" href="car-details.php">View</a>
-                                                        <a class="dropdown-item" href="">Edit</a>
+                                                        <a class="dropdown-item" href="edit-cars.php">Edit</a>
                                                         <a class="dropdown-item" href="">Delete</a>
                                                         <a class="dropdown-item" href="">Suspend</a>
                                                     </div>

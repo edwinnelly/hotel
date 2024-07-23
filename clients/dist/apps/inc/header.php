@@ -172,8 +172,7 @@
                                                         Out</span></a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="javascript:void(0);" class="js-right-sidebar"><i
-                                                class="icon-equalizer"></i></a></li>
+                                   
                                 </ul>
                             </div>
                         </div>

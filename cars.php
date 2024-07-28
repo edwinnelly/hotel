@@ -82,7 +82,7 @@
 						<div class="row justify-content-center align-items-center">
 							<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12">
 								<div class="position-relative text-center mb-5">
-									<h1>Starts Your Trip with <span class="position-relative z-4">Vioo<span
+									<h1>Start Your Trip With <span class="position-relative z-4">Vioo<span
 												class="position-absolute top-50 start-50 translate-middle d-none d-md-block mt-4">
 												<svg width="185px" height="23px" viewBox="0 0 445.5 23">
 													<path class="fill-white opacity-7"
@@ -285,7 +285,7 @@
 				<div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
 					<div class="secHeading-wrap text-center mb-5">
 						<h2>Our Awesome Vehicles</h2>
-						<p>Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
+						<p>We compare airport transfer prices from hundreds of suppliers worldwide to offer you the lowest possible price without compromising the quality of service</p>
 					</div>
 				</div>
 			</div>
@@ -819,8 +819,8 @@
 			<div class="row align-items-center justify-content-center">
 				<div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
 					<div class="secHeading-wrap text-center mb-5">
-						<h2>Trending Destination For Stay</h2>
-						<p>Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
+						<h2>Book your hassle-free airport transfer today</h2>
+						<p>We compare airport transfer prices from hundreds of suppliers worldwide to offer you the lowest possible price without compromising the quality of service</p>
 					</div>
 				</div>
 			</div>
@@ -848,89 +848,7 @@
 					</div>
 				</div>
 
-				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-					<div class="destination-blocks bg-white p-2 rounded">
-						<div class="destination-blocks-pics p-1">
-							<a href="home-car.html#"><img src="assets/img/city/c-7.png" class="img-fluid rounded"
-									alt=""></a>
-						</div>
-						<div class="destination-blocks-captions">
-							<div class="touritem-flexxer text-center p-3">
-								<h4 class="city fs-5 m-0 fw-bold">
-									<span>San Diego</span>
-								</h4>
-								<p class="detail ellipsis-container m-0">
-									<span class="ellipsis-item__normal">10 Destinations</span>
-									<span class="separate ellipsis-item__normal"></span>
-									<span class="ellipsis-item">5 Cars</span>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-					<div class="destination-blocks bg-white p-2 rounded">
-						<div class="destination-blocks-pics p-1">
-							<a href="home-car.html#"><img src="assets/img/city/c-1.png" class="img-fluid rounded"
-									alt=""></a>
-						</div>
-						<div class="destination-blocks-captions">
-							<div class="touritem-flexxer text-center p-3">
-								<h4 class="city fs-5 m-0 fw-bold">
-									<span>San Jose</span>
-								</h4>
-								<p class="detail ellipsis-container m-0">
-									<span class="ellipsis-item__normal">10 Destinations</span>
-									<span class="separate ellipsis-item__normal"></span>
-									<span class="ellipsis-item">5 Cars</span>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-					<div class="destination-blocks bg-white p-2 rounded">
-						<div class="destination-blocks-pics p-1">
-							<a href="home-car.html#"><img src="assets/img/city/c-2.png" class="img-fluid rounded"
-									alt=""></a>
-						</div>
-						<div class="destination-blocks-captions">
-							<div class="touritem-flexxer text-center p-3">
-								<h4 class="city fs-5 m-0 fw-bold">
-									<span>New York</span>
-								</h4>
-								<p class="detail ellipsis-container m-0">
-									<span class="ellipsis-item__normal">10 Destinations</span>
-									<span class="separate ellipsis-item__normal"></span>
-									<span class="ellipsis-item">5 Cars</span>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-					<div class="destination-blocks bg-white p-2 rounded">
-						<div class="destination-blocks-pics p-1">
-							<a href="home-car.html#"><img src="assets/img/city/c-3.png" class="img-fluid rounded"
-									alt=""></a>
-						</div>
-						<div class="destination-blocks-captions">
-							<div class="touritem-flexxer text-center p-3">
-								<h4 class="city fs-5 m-0 fw-bold">
-									<span>San Francisco</span>
-								</h4>
-								<p class="detail ellipsis-container m-0">
-									<span class="ellipsis-item__normal">10 Destinations</span>
-									<span class="separate ellipsis-item__normal"></span>
-									<span class="ellipsis-item">5 Cars</span>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
+				
 
 				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
 					<div class="destination-blocks bg-white p-2 rounded">
@@ -1002,25 +920,7 @@
 
 
 	<!-- ============================ Video Helps End ================================== -->
-	<section class="bg-cover" style="background:url('assets/img/bg-3.jpg')no-repeat;" data-overlay="5">
-		<div class="ht-150"></div>
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-xl-12 col-lg-12 col-md-12">
-
-					<div class="video-play-wrap text-center">
-						<div class="video-play-btn d-flex align-items-center justify-content-center">
-							<a href="https://www.youtube.com/watch?v=A8EI6JaFbv4" data-bs-toggle="modal"
-								data-bs-target="#popup-video" class="square--90 circle bg-white fs-2 text-primary"><i
-									class="fa-solid fa-play"></i></a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-		<div class="ht-150"></div>
-	</section>
+	
 	<!-- ============================ Video Helps End ================================== -->
 
 
@@ -1196,88 +1096,7 @@
 
 
 	<!-- ============================ Our Experience End ================================== -->
-	<section>
-		<div class="container">
-			<div class="row align-items-center justify-content-between">
-
-				<div class="col-xl-5 col-lg-5 col-md-6">
-					<div class="position-relative">
-						<img src="assets/img/img-2.png" class="img-fluid rounded-3 position-relative z-1" alt="">
-						<div class="position-absolute bottom-0 start-0 z-index-1 mb-4 ms-2">
-							<div class="bg-body d-flex d-inline-block rounded-3 position-relative p-3 z-2 shadow-wrap">
-
-								<!-- Avatar group -->
-								<div class="me-4">
-									<h6 class="fw-normal">Client</h6>
-									<!-- Avatar group -->
-									<ul class="avatar-group mb-0">
-										<li class="avatar avatar-md">
-											<img class="avatar-img circle" src="assets/img/team-1.jpg" alt="avatar">
-										</li>
-										<li class="avatar avatar-md">
-											<img class="avatar-img circle" src="assets/img/team-2.jpg" alt="avatar">
-										</li>
-										<li class="avatar avatar-md">
-											<img class="avatar-img circle" src="assets/img/team-3.jpg" alt="avatar">
-										</li>
-										<li class="avatar avatar-md">
-											<img class="avatar-img circle" src="assets/img/team-4.jpg" alt="avatar">
-										</li>
-										<li class="avatar avatar-md">
-											<div class="avatar-img circle bg-primary">
-												<span
-													class="text-white position-absolute top-50 start-50 translate-middle small">1K+</span>
-											</div>
-										</li>
-									</ul>
-								</div>
-
-								<!-- Rating -->
-								<div>
-									<h6 class="fw-normal mb-3">Rating</h6>
-									<h6 class="m-0">4.5<i class="fa-solid fa-star text-warning ms-1"></i></h6>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-5 col-lg-6 col-md-6">
-					<div class="bestExperience-block">
-						<p class="fw-medium text-primary text-md text-uppercase mb-0">Memories</p>
-						<h2 class="fw-bold lh-base">Our Attractive Experience And Services For you!</h2>
-						<p class="fw-light fs-6">Using dummy content or fake information in the Web design process
-							can Fake data
-							can ensure a nice looking layout but it doesn’t reflect what a living, breathing
-							application must
-							endure. Real data does. result in products with unrealistic assumptions and potentially
-							serious design
-							flaws. A seemingly elegant design can quickly begin to bloat with unexpected content or
-							break under the
-							weight of actual activity. </p>
-						<div class="d-inline-flex mt-4">
-							<div
-								class="d-inline-flex flex-column justify-content-center align-items-center py-3 px-3 rounded gray-simple me-3">
-								<h6 class="fw-bold fs-3 m-0">33</h6>
-								<p class="m-0 text-sm text-muted-2">Year Esperience</p>
-							</div>
-							<div
-								class="d-inline-flex flex-column justify-content-center align-items-center py-3 px-3 rounded gray-simple me-3">
-								<h6 class="fw-bold fs-3 m-0">78</h6>
-								<p class="m-0 text-sm text-muted-2">Destination Collaboration</p>
-							</div>
-							<div
-								class="d-inline-flex flex-column justify-content-center align-items-center py-3 px-3 rounded gray-simple">
-								<h6 class="fw-bold fs-3 m-0">25K</h6>
-								<p class="m-0 text-sm text-muted-2">Happy Customers</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
+	
 	<!-- ============================ Our Experience End ================================== -->
 
 
@@ -1405,122 +1224,9 @@
 
 
 	<!-- ============================ Footer Start ================================== -->
-	<footer class="footer skin-dark-footer">
-		<div>
-			<div class="container">
-				<div class="row">
-
-					<div class="col-lg-3 col-md-4">
-						<div class="footer-widget">
-							<div class="d-flex align-items-start flex-column mb-3">
-								<div class="d-inline-block"><img src="assets/img/logo-light.png" class="img-fluid"
-										width="160" alt="Footer Logo"></div>
-							</div>
-							<div class="footer-add pe-xl-3">
-								<p>We make your dream more beautiful & enjoyful with lots of happiness.</p>
-							</div>
-							<div class="foot-socials">
-								<ul>
-									<li><a href="JavaScript:Void(0);"><i class="fa-brands fa-facebook"></i></a></li>
-									<li><a href="JavaScript:Void(0);"><i class="fa-brands fa-linkedin"></i></a></li>
-									<li><a href="JavaScript:Void(0);"><i class="fa-brands fa-google-plus"></i></a>
-									</li>
-									<li><a href="JavaScript:Void(0);"><i class="fa-brands fa-twitter"></i></a></li>
-									<li><a href="JavaScript:Void(0);"><i class="fa-brands fa-dribbble"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2 col-md-4">
-						<div class="footer-widget">
-							<h4 class="widget-title">The Navigation</h4>
-							<ul class="footer-menu">
-								<li><a href="JavaScript:Void(0);">Talent Marketplace</a></li>
-								<li><a href="JavaScript:Void(0);">Payroll Services</a></li>
-								<li><a href="JavaScript:Void(0);">Direct Contracts</a></li>
-								<li><a href="JavaScript:Void(0);">Hire Worldwide</a></li>
-								<li><a href="JavaScript:Void(0);">Hire in the USA</a></li>
-								<li><a href="JavaScript:Void(0);">How to Hire</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-2 col-md-4">
-						<div class="footer-widget">
-							<h4 class="widget-title">Our Resources</h4>
-							<ul class="footer-menu">
-								<li><a href="JavaScript:Void(0);">Free Business tools</a></li>
-								<li><a href="JavaScript:Void(0);">Affiliate Program</a></li>
-								<li><a href="JavaScript:Void(0);">Success Stories</a></li>
-								<li><a href="JavaScript:Void(0);">Upwork Reviews</a></li>
-								<li><a href="JavaScript:Void(0);">Resources</a></li>
-								<li><a href="JavaScript:Void(0);">Help & Support</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-2 col-md-6">
-						<div class="footer-widget">
-							<h4 class="widget-title">The Company</h4>
-							<ul class="footer-menu">
-								<li><a href="JavaScript:Void(0);">About Us</a></li>
-								<li><a href="JavaScript:Void(0);">Leadership</a></li>
-								<li><a href="JavaScript:Void(0);">Contact Us</a></li>
-								<li><a href="JavaScript:Void(0);">Investor Relations</a></li>
-								<li><a href="JavaScript:Void(0);">Trust, Safety & Security</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-6">
-						<div class="footer-widget">
-							<h4 class="widget-title">Payment Methods</h4>
-							<div class="pmt-wrap">
-								<img src="assets/img/payment.png" class="img-fluid" alt="">
-							</div>
-							<div class="our-prtwrap mt-4">
-								<div class="prtn-title">
-									<p class="text-light opacity-75 fw-medium">Our Partners</p>
-								</div>
-								<div class="prtn-thumbs d-flex align-items-center justify-content-start">
-									<div class="pmt-wrap pe-4">
-										<img src="assets/img/mytrip.png" class="img-fluid" alt="">
-									</div>
-									<div class="pmt-wrap pe-4">
-										<img src="assets/img/tripadv.png" class="img-fluid" alt="">
-									</div>
-									<div class="pmt-wrap pe-4">
-										<img src="assets/img/goibibo.png" class="img-fluid" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<div class="footer-bottom border-top">
-			<div class="container">
-				<div class="row align-items-center justify-content-between">
-
-					<div class="col-xl-6 col-lg-6 col-md-6">
-						<p class="mb-0">© 2023 GeoTrip Design by Themezhub.</p>
-					</div>
-
-					<div class="col-xl-6 col-lg-6 col-md-6">
-						<ul class="p-0 d-flex justify-content-start justify-content-md-end text-start text-md-end m-0">
-							<li><a href="home-car.html#">Terms of services</a></li>
-							<li class="ms-3"><a href="home-car.html#">Privacy Policies</a></li>
-							<li class="ms-3"><a href="home-car.html#">Cookies</a></li>
-						</ul>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</footer>
+	<?php
+		include "inc/footer.php";
+		?>
 	<!-- ============================ Footer End ================================== -->
 
 	<!-- Log In Modal -->

@@ -27,10 +27,10 @@
 					<div class="nav-menus-wrapper" style="transition-property: none;">
 						<ul class="nav-menu">
 
-							<li class="active"><a href="home-stay.html"><i class="fa-solid fa-umbrella-beach me-2"></i>Stays</a></li>
-							<li><a href="home-flight.html"><i class="fa-solid fa-jet-fighter me-2"></i>Flights</a></li>
-							<li><a href="home-hotel.html"><i class="fa-solid fa-spa me-2"></i>Hotels</a></li>
-							<li><a href="home-rental.html"><i class="fa-solid fa-house-circle-check me-2"></i>Rental</a></li>
+							<li class="active"><a href="#"><i class="fa-solid fa-umbrella-beach me-2"></i>Stays</a></li>
+							<li><a href="flight.php"><i class="fa-solid fa-jet-fighter me-2"></i>Flights</a></li>
+							<li><a href="index.php"><i class="fa-solid fa-spa me-2"></i>Hotels</a></li>
+							<li><a href="#"><i class="fa-solid fa-house-circle-check me-2"></i>Rental</a></li>
 							<li><a href="cars.php"><i class="fa-solid fa-car me-2"></i>Cars</a></li>
 
 						</ul>

@@ -27,9 +27,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
 		rel="stylesheet">
-	<style>
-
-	</style>
+	
 	<!-- Custom CSS -->
 	<link href="assets/css/style.css" rel="stylesheet">
 
@@ -195,6 +193,127 @@
 		<!-- ============================ Hero Banner End ================================== -->
 
 
+
+
+		<!-- ============================ Best Locations Design Start ================================== -->
+		<section>
+			<div class="container">
+
+				<div class="row align-items-center justify-content-center">
+					<div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
+						<div class="secHeading-wrap text-center mb-5">
+							<h2>Trending destinations</h2>
+							<p>Explore stays in trending destinations</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row justify-content-center gy-4 gx-3">
+
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="cardCities cursor rounded-2">
+							<div class="cardCities-image ratio ratio-4">
+								<img src="https://preview.redd.it/abuja-nigeria-v0-mjd4ste6r20c1.jpg?width=1080&crop=smart&auto=webp&s=c2c1a741353376ac7a80018db5f59a2a51c7d267"
+									class="img-fluid object-fit" alt="image">
+							</div>
+
+							<div
+								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+								<div class="cardCities-bg"></div>
+
+								<div class="citiesCard-topcaps">
+									
+								</div>
+
+								<div class="citiesCard-bottomcaps">
+									<h4 class="text-light fs-3 mb-3">Abuja</h4>
+									<a href="destinations"><button class="btn btn-whitener full-width fw-medium">Discover<i
+											class="fa-solid fa-arrow-trend-up ms-2"></i></button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="cardCities cursor rounded-2">
+							<div class="cardCities-image ratio ratio-4">
+								<img src="https://weetracker.com/wp-content/uploads/2018/10/lagos.jpg"
+									class="img-fluid object-fit" alt="image">
+							</div>
+
+							<div
+								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+								<div class="cardCities-bg"></div>
+
+								<div class="citiesCard-topcaps">
+									
+								</div>
+
+								<div class="citiesCard-bottomcaps">
+									<h4 class="text-light fs-3 mb-3">Lagos</h4>
+									<button class="btn btn-whitener full-width fw-medium">Discover<i
+											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="cardCities cursor rounded-2">
+							<div class="cardCities-image ratio ratio-4">
+								<img src="assets/img/city/ct-9.png" class="img-fluid object-fit" alt="image">
+							</div>
+
+							<div
+								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+								<div class="cardCities-bg"></div>
+
+								<div class="citiesCard-topcaps">
+									
+								</div>
+
+								<div class="citiesCard-bottomcaps">
+									<h4 class="text-light fs-3 mb-3">Port Harcourt</h4>
+									<button class="btn btn-whitener full-width fw-medium">Discover<i
+											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="cardCities cursor rounded-2">
+							<div class="cardCities-image ratio ratio-4">
+								<img src="assets/img/city/ct-12.png" class="img-fluid object-fit" alt="image">
+							</div>
+
+							<div
+								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+								<div class="cardCities-bg"></div>
+
+								<div class="citiesCard-topcaps">
+									
+								</div>
+
+								<div class="citiesCard-bottomcaps">
+									<h4 class="text-light fs-3 mb-3">Calabar</h4>
+									<button class="btn btn-whitener full-width fw-medium">Discover<i
+											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+
+				</div>
+			</div>
+		</section>
+		<!-- ============================ Best Locations Design Start ================================== -->
+
+
+
+
 		<!-- ============================ Popular Hotels Start ================================== -->
 		<section>
 			<div class="container">
@@ -202,286 +321,19 @@
 				<div class="row align-items-center justify-content-center">
 					<div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
 						<div class="secHeading-wrap text-center mb-5">
-							<h2>Popular Resorts In Nigeria</h2>
-							<p>Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
+							<h2>Discover your new favorite stay</h2>
+							<p>These popular destinations have a lot to offer</p>
 						</div>
 					</div>
 				</div>
 
 				<div class="row justify-content-center g-xl-4 g-lg-4 g-md-3 g-4">
 
-					<!-- Single -->
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-						<div class="pop-touritem">
-							<a href="home-5.html#" class="card rounded-3 border m-0">
-								<div class="flight-thumb-wrapper">
-									<div class="popFlights-item-overHidden">
-										<img src="assets/img/hotel/hotel-1.jpg" class="img-fluid" alt="">
-									</div>
-								</div>
-								<div class="touritem-middle position-relative p-3">
-									<div class="touritem-flexxer">
-										<h4 class="city fs-title m-0 fw-bold">
-											<span>Mercure Singapore Tyrwhitt</span>
-										</h4>
-										<p class="detail ellipsis-container">
-											<span class="ellipsis-item__normal">Delhi</span>
-											<span class="separate ellipsis-item__normal"></span>
-											<span class="ellipsis-item">3.5 Km From Delhi</span>
-										</p>
-
-										<div class="touritem-centrio mt-4">
-											<div class="d-block position-relative"><span
-													class="label bg-light-success text-success">Free Cancellation Till
-													10 Aug 23</span></div>
-											<div class="aments-lists mt-2">
-												<ul class="p-0 row gx-3 gy-2 align-items-start flex-wrap">
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Cooling
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Pet Allow
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Free WiFi
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Food
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Parking
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Spa & Massage
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="trsms-foots mt-4">
-										<div class="flts-flex d-flex align-items-end justify-content-between">
-											<div class="flts-flex-strat">
-												<div class="d-flex align-items-center justify-content-start">
-													<span class="label bg-seegreen text-light">15% Off</span>
-												</div>
-												<div class="d-flex align-items-center">
-													<div class="text-dark fw-bold fs-4">US₦59</div>
-													<div
-														class="text-muted-2 fw-medium text-decoration-line-through ms-2">
-														US₦79</div>
-												</div>
-												<div class="d-flex align-items-start flex-column">
-													<div class="text-muted-2 text-sm">Per Night</div>
-												</div>
-											</div>
-
-											<div class="flts-flex-end">
-												<div class="row align-items-center justify-content-end gx-2">
-													<div class="col-auto text-start text-md-end">
-														<div class="text-md text-dark fw-medium">Exceptional</div>
-														<div class="text-md text-muted-2">3,014 reviews</div>
-													</div>
-													<div class="col-auto">
-														<div class="square--40 rounded-2 bg-primary text-light">4.8
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
+					
+					
 
 					<!-- Single -->
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-						<div class="pop-touritem">
-							<a href="home-5.html#" class="card rounded-3 border m-0">
-								<div class="flight-thumb-wrapper">
-									<div class="popFlights-item-overHidden">
-										<img src="assets/img/hotel/hotel-2.jpg" class="img-fluid" alt="">
-									</div>
-								</div>
-								<div class="touritem-middle position-relative p-3">
-									<div class="touritem-flexxer">
-										<h4 class="city fs-title m-0 fw-bold">
-											<span>Hotel Calmo Chinatown</span>
-										</h4>
-										<p class="detail ellipsis-container">
-											<span class="ellipsis-item__normal">Delhi</span>
-											<span class="separate ellipsis-item__normal"></span>
-											<span class="ellipsis-item">3.5 Km From Delhi</span>
-										</p>
-
-										<div class="touritem-centrio mt-4">
-											<div class="d-block position-relative"><span
-													class="label bg-light-success text-success">Free
-													Cancellation Till 10 Aug 23</span></div>
-											<div class="aments-lists mt-2">
-												<ul class="p-0 row gx-3 gy-2 align-items-start flex-wrap">
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Cooling
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Pet Allow
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Free WiFi
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Food
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Parking
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Spa & Massage
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="trsms-foots mt-4">
-										<div class="flts-flex d-flex align-items-end justify-content-between">
-											<div class="flts-flex-strat">
-												<div class="d-flex align-items-center justify-content-start">
-													<span class="label bg-seegreen text-light">15% Off</span>
-												</div>
-												<div class="d-flex align-items-center">
-													<div class="text-dark fw-bold fs-4">US₦59</div>
-													<div
-														class="text-muted-2 fw-medium text-decoration-line-through ms-2">
-														US₦79</div>
-												</div>
-												<div class="d-flex align-items-start flex-column">
-													<div class="text-muted-2 text-sm">Per Night</div>
-												</div>
-											</div>
-
-											<div class="flts-flex-end">
-												<div class="row align-items-center justify-content-end gx-2">
-													<div class="col-auto text-start text-md-end">
-														<div class="text-md text-dark fw-medium">Exceptional</div>
-														<div class="text-md text-muted-2">3,014 reviews</div>
-													</div>
-													<div class="col-auto">
-														<div class="square--40 rounded-2 bg-primary text-light">4.8
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<!-- Single -->
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-						<div class="pop-touritem">
-							<a href="home-5.html#" class="card rounded-3 border m-0">
-								<div class="flight-thumb-wrapper">
-									<div class="popFlights-item-overHidden">
-										<img src="assets/img/hotel/hotel-3.jpg" class="img-fluid" alt="">
-									</div>
-								</div>
-								<div class="touritem-middle position-relative p-3">
-									<div class="touritem-flexxer">
-										<h4 class="city fs-title m-0 fw-bold">
-											<span>Siloso Beach Resort - Sentosa</span>
-										</h4>
-										<p class="detail ellipsis-container">
-											<span class="ellipsis-item__normal">Delhi</span>
-											<span class="separate ellipsis-item__normal"></span>
-											<span class="ellipsis-item">3.5 Km From Delhi</span>
-										</p>
-
-										<div class="touritem-centrio mt-4">
-											<div class="d-block position-relative"><span
-													class="label bg-light-success text-success">Free
-													Cancellation Till 10 Aug 23</span></div>
-											<div class="aments-lists mt-2">
-												<ul class="p-0 row gx-3 gy-2 align-items-start flex-wrap">
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Cooling
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Pet Allow
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Free WiFi
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Food
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Parking
-													</li>
-													<li
-														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
-														<i class="fa-solid fa-check text-success me-1"></i>Spa & Massage
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="trsms-foots mt-4">
-										<div class="flts-flex d-flex align-items-end justify-content-between">
-											<div class="flts-flex-strat">
-												<div class="d-flex align-items-center justify-content-start">
-													<span class="label bg-seegreen text-light">15% Off</span>
-												</div>
-												<div class="d-flex align-items-center">
-													<div class="text-dark fw-bold fs-4">US₦59</div>
-													<div
-														class="text-muted-2 fw-medium text-decoration-line-through ms-2">
-														US₦79</div>
-												</div>
-												<div class="d-flex align-items-start flex-column">
-													<div class="text-muted-2 text-sm">Per Night</div>
-												</div>
-											</div>
-
-											<div class="flts-flex-end">
-												<div class="row align-items-center justify-content-end gx-2">
-													<div class="col-auto text-start text-md-end">
-														<div class="text-md text-dark fw-medium">Exceptional</div>
-														<div class="text-md text-muted-2">3,014 reviews</div>
-													</div>
-													<div class="col-auto">
-														<div class="square--40 rounded-2 bg-primary text-light">4.8
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<!-- Single -->
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
 						<div class="pop-touritem">
 							<a href="home-5.html#" class="card rounded-3 border m-0">
 								<div class="flight-thumb-wrapper">
@@ -571,7 +423,7 @@
 					</div>
 
 					<!-- Single -->
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
 						<div class="pop-touritem">
 							<a href="home-5.html#" class="card rounded-3 border m-0">
 								<div class="flight-thumb-wrapper">
@@ -661,7 +513,96 @@
 					</div>
 
 					<!-- Single -->
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+						<div class="pop-touritem">
+							<a href="home-5.html#" class="card rounded-3 border m-0">
+								<div class="flight-thumb-wrapper">
+									<div class="popFlights-item-overHidden">
+										<img src="assets/img/hotel/hotel-8.jpg" class="img-fluid" alt="">
+									</div>
+								</div>
+								<div class="touritem-middle position-relative p-3">
+									<div class="touritem-flexxer">
+										<h4 class="city fs-title m-0 fw-bold">
+											<span>Hotel Chancellor@Orchard</span>
+										</h4>
+										<p class="detail ellipsis-container">
+											<span class="ellipsis-item__normal">Delhi</span>
+											<span class="separate ellipsis-item__normal"></span>
+											<span class="ellipsis-item">3.5 Km From Delhi</span>
+										</p>
+
+										<div class="touritem-centrio mt-4">
+											<div class="d-block position-relative"><span
+													class="label bg-light-success text-success">Free
+													Cancellation Till 10 Aug 23</span></div>
+											<div class="aments-lists mt-2">
+												<ul class="p-0 row gx-3 gy-2 align-items-start flex-wrap">
+													<li
+														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
+														<i class="fa-solid fa-check text-success me-1"></i>Cooling
+													</li>
+													<li
+														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
+														<i class="fa-solid fa-check text-success me-1"></i>Pet Allow
+													</li>
+													<li
+														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
+														<i class="fa-solid fa-check text-success me-1"></i>Free WiFi
+													</li>
+													<li
+														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
+														<i class="fa-solid fa-check text-success me-1"></i>Food
+													</li>
+													<li
+														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
+														<i class="fa-solid fa-check text-success me-1"></i>Parking
+													</li>
+													<li
+														class="col-auto text-dark text-md text-muted-2 d-inline-flex align-items-center">
+														<i class="fa-solid fa-check text-success me-1"></i>Spa & Massage
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="trsms-foots mt-4">
+										<div class="flts-flex d-flex align-items-end justify-content-between">
+											<div class="flts-flex-strat">
+												<div class="d-flex align-items-center justify-content-start">
+													<span class="label bg-seegreen text-light">15% Off</span>
+												</div>
+												<div class="d-flex align-items-center">
+													<div class="text-dark fw-bold fs-4">US₦59</div>
+													<div
+														class="text-muted-2 fw-medium text-decoration-line-through ms-2">
+														US₦79</div>
+												</div>
+												<div class="d-flex align-items-start flex-column">
+													<div class="text-muted-2 text-sm">Per Night</div>
+												</div>
+											</div>
+
+											<div class="flts-flex-end">
+												<div class="row align-items-center justify-content-end gx-2">
+													<div class="col-auto text-start text-md-end">
+														<div class="text-md text-dark fw-medium">Exceptional</div>
+														<div class="text-md text-muted-2">3,014 reviews</div>
+													</div>
+													<div class="col-auto">
+														<div class="square--40 rounded-2 bg-primary text-light">4.8
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
 						<div class="pop-touritem">
 							<a href="home-5.html#" class="card rounded-3 border m-0">
 								<div class="flight-thumb-wrapper">
@@ -939,173 +880,7 @@
 						</div>
 					</div>
 
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="pop-touritem">
-							<a href="https://shreethemes.net/geotrip-live/geotrip/flight-search.html"
-								class="card rounded-3 h-100 m-0">
-								<div class="flight-thumb-wrapper">
-									<div class="popFlights-item-overHidden">
-										<img src="assets/img/destination/tr-5.jpg" class="img-fluid" alt="">
-									</div>
-								</div>
-								<div class="touritem-middle position-relative p-3">
-									<div class="touritem-flexxer">
-										<h4 class="city fs-6 m-0 fw-bold">
-											<span>San Francisco</span>
-											<span class="svg-icon svg-icon-muted svg-icon-2hx px-1">
-												<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z"
-														fill="currentColor" />
-													<path opacity="0.3"
-														d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z"
-														fill="currentColor" />
-												</svg>
-											</span>
-											<span>Houston</span>
-										</h4>
-										<p class="detail ellipsis-container">
-											<span class="ellipsis-item__normal">Round-trip</span>
-											<span class="separate ellipsis-item__normal"></span>
-											<span class="ellipsis-item">3 days</span>
-										</p>
-									</div>
-									<div class="flight-foots">
-										<h5 class="fs-5 low-price m-0"><span class="tag-span">From</span> <span
-												class="price">US₦492</span>
-										</h5>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="pop-touritem">
-							<a href="https://shreethemes.net/geotrip-live/geotrip/flight-search.html"
-								class="card rounded-3 h-100 m-0">
-								<div class="flight-thumb-wrapper">
-									<div class="popFlights-item-overHidden">
-										<img src="assets/img/destination/tr-10.jpg" class="img-fluid" alt="">
-									</div>
-								</div>
-								<div class="touritem-middle position-relative p-3">
-									<div class="touritem-flexxer">
-										<h4 class="city fs-6 m-0 fw-bold">
-											<span>San Antonio</span>
-											<span class="svg-icon svg-icon-muted svg-icon-2hx px-1">
-												<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z"
-														fill="currentColor" />
-													<path opacity="0.3"
-														d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z"
-														fill="currentColor" />
-												</svg>
-											</span>
-											<span>Columbus</span>
-										</h4>
-										<p class="detail ellipsis-container">
-											<span class="ellipsis-item__normal">Round-trip</span>
-											<span class="separate ellipsis-item__normal"></span>
-											<span class="ellipsis-item">3 days</span>
-										</p>
-									</div>
-									<div class="flight-foots">
-										<h5 class="fs-5 low-price m-0"><span class="tag-span">From</span> <span
-												class="price">US₦492</span>
-										</h5>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="pop-touritem">
-							<a href="https://shreethemes.net/geotrip-live/geotrip/flight-search.html"
-								class="card rounded-3 h-100 m-0">
-								<div class="flight-thumb-wrapper">
-									<div class="popFlights-item-overHidden">
-										<img src="assets/img/destination/tr-9.jpg" class="img-fluid" alt="">
-									</div>
-								</div>
-								<div class="touritem-middle position-relative p-3">
-									<div class="touritem-flexxer">
-										<h4 class="city fs-6 m-0 fw-bold">
-											<span>Los Angeles</span>
-											<span class="svg-icon svg-icon-muted svg-icon-2hx px-1">
-												<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z"
-														fill="currentColor" />
-													<path opacity="0.3"
-														d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z"
-														fill="currentColor" />
-												</svg>
-											</span>
-											<span>Kansas City</span>
-										</h4>
-										<p class="detail ellipsis-container">
-											<span class="ellipsis-item__normal">Round-trip</span>
-											<span class="separate ellipsis-item__normal"></span>
-											<span class="ellipsis-item">3 days</span>
-										</p>
-									</div>
-									<div class="flight-foots">
-										<h5 class="fs-5 low-price m-0"><span class="tag-span">From</span> <span
-												class="price">US₦492</span>
-										</h5>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="pop-touritem">
-							<a href="https://shreethemes.net/geotrip-live/geotrip/flight-search.html"
-								class="card rounded-3 h-100 m-0">
-								<div class="flight-thumb-wrapper">
-									<div class="popFlights-item-overHidden">
-										<img src="assets/img/destination/tr-6.jpg" class="img-fluid" alt="">
-									</div>
-								</div>
-								<div class="touritem-middle position-relative p-3">
-									<div class="touritem-flexxer">
-										<h4 class="city fs-6 m-0 fw-bold">
-											<span>New Orleans</span>
-											<span class="svg-icon svg-icon-muted svg-icon-2hx px-1">
-												<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z"
-														fill="currentColor" />
-													<path opacity="0.3"
-														d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z"
-														fill="currentColor" />
-												</svg>
-											</span>
-											<span>Los Angeles</span>
-										</h4>
-										<p class="detail ellipsis-container">
-											<span class="ellipsis-item__normal">Round-trip</span>
-											<span class="separate ellipsis-item__normal"></span>
-											<span class="ellipsis-item">3 days</span>
-										</p>
-									</div>
-									<div class="flight-foots">
-										<h5 class="fs-5 low-price m-0"><span class="tag-span">From</span> <span
-												class="price">US₦492</span>
-										</h5>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
+				
 
 				</div>
 			</div>
@@ -1113,300 +888,7 @@
 		<!-- ============================ Popular Routes Design Start ================================== -->
 
 
-		<!-- ============================ Best Locations Design Start ================================== -->
-		<section>
-			<div class="container">
-
-				<div class="row align-items-center justify-content-center">
-					<div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
-						<div class="secHeading-wrap text-center mb-5">
-							<h2>Explore Hot Destinations</h2>
-							<p>Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="row justify-content-center gy-4 gx-3">
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="cardCities cursor rounded-2">
-							<div class="cardCities-image ratio ratio-4">
-								<img src="https://preview.redd.it/abuja-nigeria-v0-mjd4ste6r20c1.jpg?width=1080&crop=smart&auto=webp&s=c2c1a741353376ac7a80018db5f59a2a51c7d267"
-									class="img-fluid object-fit" alt="image">
-							</div>
-
-							<div
-								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-								<div class="cardCities-bg"></div>
-
-								<div class="citiesCard-topcaps">
-									<div class="d-flex align-items-center justify-content-center flex-wrap">
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10
-											Hotels</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25
-											Flights</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17
-											Cars</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22
-											Tours</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36
-											Activities</div>
-									</div>
-								</div>
-
-								<div class="citiesCard-bottomcaps">
-									<h4 class="text-light fs-3 mb-3">Abuja</h4>
-									<button class="btn btn-whitener full-width fw-medium">Discover<i
-											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="cardCities cursor rounded-2">
-							<div class="cardCities-image ratio ratio-4">
-								<img src="https://weetracker.com/wp-content/uploads/2018/10/lagos.jpg"
-									class="img-fluid object-fit" alt="image">
-							</div>
-
-							<div
-								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-								<div class="cardCities-bg"></div>
-
-								<div class="citiesCard-topcaps">
-									<div class="d-flex align-items-center justify-content-center flex-wrap">
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10
-											Hotels</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25
-											Flights</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17
-											Cars</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22
-											Tours</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36
-											Activities</div>
-									</div>
-								</div>
-
-								<div class="citiesCard-bottomcaps">
-									<h4 class="text-light fs-3 mb-3">Lagos</h4>
-									<button class="btn btn-whitener full-width fw-medium">Discover<i
-											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="cardCities cursor rounded-2">
-							<div class="cardCities-image ratio ratio-4">
-								<img src="assets/img/city/ct-9.png" class="img-fluid object-fit" alt="image">
-							</div>
-
-							<div
-								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-								<div class="cardCities-bg"></div>
-
-								<div class="citiesCard-topcaps">
-									<div class="d-flex align-items-center justify-content-center flex-wrap">
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10
-											Hotels</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25
-											Flights</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17
-											Cars</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22
-											Tours</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36
-											Activities</div>
-									</div>
-								</div>
-
-								<div class="citiesCard-bottomcaps">
-									<h4 class="text-light fs-3 mb-3">Port Harcourt</h4>
-									<button class="btn btn-whitener full-width fw-medium">Discover<i
-											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="cardCities cursor rounded-2">
-							<div class="cardCities-image ratio ratio-4">
-								<img src="assets/img/city/ct-12.png" class="img-fluid object-fit" alt="image">
-							</div>
-
-							<div
-								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-								<div class="cardCities-bg"></div>
-
-								<div class="citiesCard-topcaps">
-									<div class="d-flex align-items-center justify-content-center flex-wrap">
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10
-											Hotels</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25
-											Flights</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17
-											Cars</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22
-											Tours</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36
-											Activities</div>
-									</div>
-								</div>
-
-								<div class="citiesCard-bottomcaps">
-									<h4 class="text-light fs-3 mb-3">Calabar</h4>
-									<button class="btn btn-whitener full-width fw-medium">Discover<i
-											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="cardCities cursor rounded-2">
-							<div class="cardCities-image ratio ratio-4">
-								<img src="assets/img/city/c-4.png" class="img-fluid object-fit" alt="image">
-							</div>
-
-							<div
-								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-								<div class="cardCities-bg"></div>
-
-								<div class="citiesCard-topcaps">
-									<div class="d-flex align-items-center justify-content-center flex-wrap">
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10
-											Hotels</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25
-											Flights</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17
-											Cars</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22
-											Tours</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36
-											Activities</div>
-									</div>
-								</div>
-
-								<div class="citiesCard-bottomcaps">
-									<h4 class="text-light fs-3 mb-3">San Diego</h4>
-									<button class="btn btn-whitener full-width fw-medium">Discover<i
-											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="cardCities cursor rounded-2">
-							<div class="cardCities-image ratio ratio-4">
-								<img src="assets/img/city/c-6.png" class="img-fluid object-fit" alt="image">
-							</div>
-
-							<div
-								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-								<div class="cardCities-bg"></div>
-
-								<div class="citiesCard-topcaps">
-									<div class="d-flex align-items-center justify-content-center flex-wrap">
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10
-											Hotels</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25
-											Flights</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17
-											Cars</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22
-											Tours</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36
-											Activities</div>
-									</div>
-								</div>
-
-								<div class="citiesCard-bottomcaps">
-									<h4 class="text-light fs-3 mb-3">San Francisco</h4>
-									<button class="btn btn-whitener full-width fw-medium">Discover<i
-											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="cardCities cursor rounded-2">
-							<div class="cardCities-image ratio ratio-4">
-								<img src="assets/img/city/c-7.png" class="img-fluid object-fit" alt="image">
-							</div>
-
-							<div
-								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-								<div class="cardCities-bg"></div>
-
-								<div class="citiesCard-topcaps">
-									<div class="d-flex align-items-center justify-content-center flex-wrap">
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10
-											Hotels</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25
-											Flights</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17
-											Cars</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22
-											Tours</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36
-											Activities</div>
-									</div>
-								</div>
-
-								<div class="citiesCard-bottomcaps">
-									<h4 class="text-light fs-3 mb-3">Houston</h4>
-									<button class="btn btn-whitener full-width fw-medium">Discover<i
-											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-						<div class="cardCities cursor rounded-2">
-							<div class="cardCities-image ratio ratio-4">
-								<img src="assets/img/city/c-8.png" class="img-fluid object-fit" alt="image">
-							</div>
-
-							<div
-								class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-								<div class="cardCities-bg"></div>
-
-								<div class="citiesCard-topcaps">
-									<div class="d-flex align-items-center justify-content-center flex-wrap">
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10
-											Hotels</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25
-											Flights</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17
-											Cars</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22
-											Tours</div>
-										<div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36
-											Activities</div>
-									</div>
-								</div>
-
-								<div class="citiesCard-bottomcaps">
-									<h4 class="text-light fs-3 mb-3">San Jose</h4>
-									<button class="btn btn-whitener full-width fw-medium">Discover<i
-											class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-		<!-- ============================ Best Locations Design Start ================================== -->
-
+		
 
 		<!-- ============================ Video Helps End ================================== -->
 		<section class="bg-cover" style="background:url('assets/img/banner-6.jpg')no-repeat;" data-overlay="5">
@@ -1428,134 +910,18 @@
 					</div>
 				</div>
 			</div>
-			<div class="ht-150"></div>
+			<!-- <div class="ht-150"></div> -->
 		</section>
 		<!-- ============================ Video Helps End ================================== -->
 
 
 		<!-- ============================ Our Partners =========================== -->
-		<section class="py-5 gray-simple">
-			<div class="container">
-				<div
-					class="row align-items-center justify-content-center row-cols-lg-6 row-cols-md-5 row-cols-sm-5 row-cols-3 gx-3 gy-3">
-
-					<div class="col">
-						<div class="px-2 opacity-75 text-center">
-							<img src="assets/img/brand/logo-3.png" class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="px-2 opacity-75 text-center">
-							<img src="assets/img/brand/logo-4.png" class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="px-2 opacity-75 text-center">
-							<img src="assets/img/brand/logo-8.png" class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="px-2 opacity-75 text-center">
-							<img src="assets/img/brand/logo-15.png" class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="px-2 opacity-75 text-center">
-							<img src="assets/img/brand/logo-16.png" class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="px-2 opacity-75 text-center">
-							<img src="assets/img/brand/logo-1.png" class="img-fluid" alt="">
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
+		
 		<!-- ============================ Our Partners =========================== -->
 
 
 		<!-- ============================ Flexible features End ================================== -->
-		<section>
-			<div class="container">
-
-				<div class="row align-items-center justify-content-center">
-					<div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
-						<div class="secHeading-wrap text-center mb-5">
-							<h2>Why Move To GeoTrip.com</h2>
-							<p>Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="row align-items-center justify-content-between">
-
-					<div class="col-xl-5 col-lg-5 col-md-6">
-						<div class="position-relative">
-							<img src="assets/img/img-1.png" class="img-fluid rounded-3 position-relative z-1" alt="">
-						</div>
-
-					</div>
-
-					<div class="col-xl-5 col-lg-6 col-md-6">
-						<div class="featuresList-box">
-
-							<div class="featuresList-single mb-4">
-								<div class="featuresList-counter d-inline-block mb-3"><span
-										class="bg-success text-light rounded-pill fw-medium py-1 px-3">01</span></div>
-								<div class="featuresList-caption">
-									<h5 class="fw-bold fs-6 mb-2">Get The Superb Discount</h5>
-									<p class="fw-light fs-6">Rigid proponents of content strategy may shun the use of
-										dummy copy but then
-										designers might want to ask them to provide style sheets.</p>
-								</div>
-							</div>
-
-							<div class="featuresList-single mb-4">
-								<div class="featuresList-counter d-inline-block mb-3"><span
-										class="bg-warning text-light rounded-pill fw-medium py-1 px-3">02</span></div>
-								<div class="featuresList-caption">
-									<h5 class="fw-bold fs-6 mb-2">100% Price Transparency</h5>
-									<p class="fw-light fs-6">Rigid proponents of content strategy may shun the use of
-										dummy copy but then
-										designers might want to ask them to provide style sheets.</p>
-								</div>
-							</div>
-
-							<div class="featuresList-single mb-4">
-								<div class="featuresList-counter d-inline-block mb-3"><span
-										class="bg-purple text-light rounded-pill fw-medium py-1 px-3">03</span></div>
-								<div class="featuresList-caption">
-									<h5 class="fw-bold fs-6 mb-2">Top Class destination</h5>
-									<p class="fw-light fs-6">Rigid proponents of content strategy may shun the use of
-										dummy copy but then
-										designers might want to ask them to provide style sheets.</p>
-								</div>
-							</div>
-
-							<div class="featuresList-single">
-								<div class="featuresList-counter d-inline-block mb-3"><span
-										class="bg-primary text-light rounded-pill fw-medium py-1 px-3">04</span></div>
-								<div class="featuresList-caption">
-									<h5 class="fw-bold fs-6 mb-2">Friendly Chat Support</h5>
-									<p class="fw-light fs-6">Rigid proponents of content strategy may shun the use of
-										dummy copy but then
-										designers might want to ask them to provide style sheets.</p>
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
+		
 		<!-- ============================ Flexible features End ================================== -->
 
 
@@ -1657,7 +1023,7 @@
 
 									<div class="calltoAction-title mb-5">
 										<h4 class="text-light fs-2 fw-bold lh-base m-0">Subscribe & Get<br>Special
-											Discount with GeoTrip.com
+											Discount with Vioobooking.com
 										</h4>
 									</div>
 									<div class="newsletter-forms mt-md-0 mt-4">
@@ -1695,120 +1061,9 @@
 
 
 		<!-- ============================ Footer Start ================================== -->
-		<footer class="footer skin-light-footer">
-			<div>
-				<div class="container">
-					<div class="row">
-
-						<div class="col-lg-3 col-md-4">
-							<div class="footer-widget">
-								<img src="assets/img/logo.png" class="img-footer" alt="">
-								<div class="footer-add">
-									<p>We make your dream more beautiful & enjoyful with lots of happiness.</p>
-								</div>
-								<div class="foot-socials">
-									<ul>
-										<li><a href="JavaScript:Void(0);"><i class="fa-brands fa-facebook"></i></a></li>
-										<li><a href="JavaScript:Void(0);"><i class="fa-brands fa-linkedin"></i></a></li>
-										<li><a href="JavaScript:Void(0);"><i class="fa-brands fa-google-plus"></i></a>
-										</li>
-										<li><a href="JavaScript:Void(0);"><i class="fa-brands fa-twitter"></i></a></li>
-										<li><a href="JavaScript:Void(0);"><i class="fa-brands fa-dribbble"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-4">
-							<div class="footer-widget">
-								<h4 class="widget-title">The Navigation</h4>
-								<ul class="footer-menu">
-									<li><a href="JavaScript:Void(0);">Talent Marketplace</a></li>
-									<li><a href="JavaScript:Void(0);">Payroll Services</a></li>
-									<li><a href="JavaScript:Void(0);">Direct Contracts</a></li>
-									<li><a href="JavaScript:Void(0);">Hire Worldwide</a></li>
-									<li><a href="JavaScript:Void(0);">Hire in the USA</a></li>
-									<li><a href="JavaScript:Void(0);">How to Hire</a></li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-md-4">
-							<div class="footer-widget">
-								<h4 class="widget-title">Our Resources</h4>
-								<ul class="footer-menu">
-									<li><a href="JavaScript:Void(0);">Free Business tools</a></li>
-									<li><a href="JavaScript:Void(0);">Affiliate Program</a></li>
-									<li><a href="JavaScript:Void(0);">Success Stories</a></li>
-									<li><a href="JavaScript:Void(0);">Upwork Reviews</a></li>
-									<li><a href="JavaScript:Void(0);">Resources</a></li>
-									<li><a href="JavaScript:Void(0);">Help & Support</a></li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-md-6">
-							<div class="footer-widget">
-								<h4 class="widget-title">The Company</h4>
-								<ul class="footer-menu">
-									<li><a href="JavaScript:Void(0);">About Us</a></li>
-									<li><a href="JavaScript:Void(0);">Leadership</a></li>
-									<li><a href="JavaScript:Void(0);">Contact Us</a></li>
-									<li><a href="JavaScript:Void(0);">Investor Relations</a></li>
-									<li><a href="JavaScript:Void(0);">Trust, Safety & Security</a></li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-lg-3 col-md-6">
-							<div class="footer-widget">
-								<h4 class="widget-title">Payment Methods</h4>
-								<div class="pmt-wrap">
-									<img src="assets/img/payment.png" class="img-fluid" alt="">
-								</div>
-								<div class="our-prtwrap mt-4">
-									<div class="prtn-title">
-										<p class="text-muted fw-medium">Our Partners</p>
-									</div>
-									<div class="prtn-thumbs d-flex align-items-center justify-content-start">
-										<div class="pmt-wrap pe-4">
-											<img src="assets/img/mytrip.png" class="img-fluid" alt="">
-										</div>
-										<div class="pmt-wrap pe-4">
-											<img src="assets/img/tripadv.png" class="img-fluid" alt="">
-										</div>
-										<div class="pmt-wrap pe-4">
-											<img src="assets/img/goibibo.png" class="img-fluid" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-
-			<div class="footer-bottom border-top">
-				<div class="container">
-					<div class="row align-items-center justify-content-between">
-
-						<div class="col-xl-6 col-lg-6 col-md-6">
-							<p class="mb-0">© 2023 GeoTrip Design by Themezhub.</p>
-						</div>
-
-						<div class="col-xl-6 col-lg-6 col-md-6">
-							<ul
-								class="p-0 d-flex justify-content-start justify-content-md-end text-start text-md-end m-0">
-								<li><a href="home-5.html#">Terms of services</a></li>
-								<li class="ms-3"><a href="home-5.html#">Privacy Policies</a></li>
-								<li class="ms-3"><a href="home-5.html#">Cookies</a></li>
-							</ul>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</footer>
+		<?php
+		include "inc/footer.php";
+		?>
 		<!-- ============================ Footer End ================================== -->
 
 		<!-- Log In Modal -->

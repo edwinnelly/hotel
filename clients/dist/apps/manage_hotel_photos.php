@@ -44,11 +44,10 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                                 <li class="breadcrumb-item"><a href="app">Home</a></li>
                                 <li class="breadcrumb-item active">Hotel</li>
                             </ul>
-                            <h1 class="mb-1 mt-1">Hotel Manager / Amenities</h1>
+                            <h1 class="mb-1 mt-1">Hotel Photo / Manage</h1>
                         </div>
                         <div class="col-lg-6 col-md-12 text-md-right">
-                            <a href="hotel?hotelid=<?php echo base64_encode($hotelid); ?>"
-                                class="btn btn-secondary">Manage Hotel</a>
+                            <a href="hotel?hotelid=<?php echo base64_encode($hotelid); ?>" class="btn btn-secondary">Manage Hotel</a>
                             <a href="add_aminities.php?hotelid=<?php echo base64_encode($hotelid); ?>"
                                 class="btn btn-secondary">Add Amenities</a>
 
@@ -67,16 +66,20 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                                         <thead>
                                             <tr>
                                                 <th>ID</th>
-                                                <th>Amenities</th>
+                                                <th>Photo Names</th>
 
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
+
+                                      
+
+
                                             <?php
                                             // Initialize the Manager class and create an instance of it
                                             $app = new Manager();
-                                            $selectSql = "SELECT  * FROM hotel_facilities where hotel_id=:hotel_id";
+                                            $selectSql = "SELECT  * FROM hotel_gallery where hotel_id=:hotel_id order by id desc";
                                             $params = [
                                                 ':hotel_id' => $hotelid, // only inactive hotels are displayed in the table, change 'no' to 'yes' to display active hotels
                                             ];
@@ -90,7 +93,7 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                                                         <?php echo $sn++; ?>
                                                     </td>
                                                     <td>
-                                                        <?php echo $hotels_list['facility_name']; ?>
+                                                        <?php echo $hotels_list['description']; ?>
                                                     </td>
 
                                                     <td>
@@ -104,9 +107,9 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 
                                                                 <button class="dropdown-item delete_emp"
-                                                                    data-id="<?php echo base64_encode($hotels_list['facility_id']); ?>"
+                                                                    data-id="<?php echo base64_encode($hotels_list['id']); ?>"
                                                                     data-hotel="<?php echo base64_encode($hotels_list['hotel_id']); ?>"
-                                                                    data-amen="<?php echo $hotels_list['facility_name']; ?>">X</button>
+                                                                    data-amen="<?php echo $hotels_list['description']; ?>">X</button>
 
                                                             </div>
                                                         </div>
@@ -137,7 +140,7 @@ $hotelid = base64_decode($app->get_request('hotelid'));
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="title" id="defaultModalLabel">Do You Want To Delete The Amenities</h5>
+                        <h5 class="title" id="defaultModalLabel">Do You Want To Delete The Photo</h5>
                     </div>
                     <div class="modal-body">
                         <div class="col-md-6">
@@ -213,13 +216,13 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                     btn.attr('disabled', false).html('<i class="fa fa-spin fa-spinner"></i> Try Again...');
                 } else {
                     $.ajax({
-                        url: "ajax/hotel/delete_amenities",
+                        url: "ajax/hotel/delete_hotel_photos",
                         method: "POST",
                         data: {
                             id_del: id_del, hotelid: hotelid
                         },
                         success: function (data) {
-
+                           
                             if (data.trim() == 'Success') {
 
                                 //hide  modal
@@ -227,7 +230,7 @@ $hotelid = base64_decode($app->get_request('hotelid'));
 
                                 Swal.fire({
                                     title: "success!",
-                                    text: "Amenities Deleted, Please wait redirecting...!",
+                                    text: "Photo Deleted, Please wait redirecting...!",
                                     icon: "success",
                                 });
 

@@ -44,7 +44,7 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                                 <li class="breadcrumb-item"><a href="app">Home</a></li>
                                 <li class="breadcrumb-item active">Hotel</li>
                             </ul>
-                            <h1 class="mb-1 mt-1">Hotel Manager / Amenities</h1>
+                            <h1 class="mb-1 mt-1">Manager / Hotel surroundings</h1>
                         </div>
                         <div class="col-lg-6 col-md-12 text-md-right">
                             <a href="hotel?hotelid=<?php echo base64_encode($hotelid); ?>"
@@ -67,8 +67,7 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                                         <thead>
                                             <tr>
                                                 <th>ID</th>
-                                                <th>Amenities</th>
-
+                                                <th>Category</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
@@ -76,11 +75,9 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                                             <?php
                                             // Initialize the Manager class and create an instance of it
                                             $app = new Manager();
-                                            $selectSql = "SELECT  * FROM hotel_facilities where hotel_id=:hotel_id";
-                                            $params = [
-                                                ':hotel_id' => $hotelid, // only inactive hotels are displayed in the table, change 'no' to 'yes' to display active hotels
-                                            ];
-                                            $hotels = $app->fetchData($selectSql, $params);
+                                            $selectSql = "SELECT  * FROM nearby_category_hotel";
+
+                                            $hotels = $app->fetchData($selectSql);
                                             // Display fetched records
                                             $sn = 1;
                                             foreach ($hotels as $hotels_list) {
@@ -90,7 +87,7 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                                                         <?php echo $sn++; ?>
                                                     </td>
                                                     <td>
-                                                        <?php echo $hotels_list['facility_name']; ?>
+                                                        <?php echo $hotels_list['name']; ?>
                                                     </td>
 
                                                     <td>
@@ -103,11 +100,8 @@ $hotelid = base64_decode($app->get_request('hotelid'));
 
                                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 
-                                                                <button class="dropdown-item delete_emp"
-                                                                    data-id="<?php echo base64_encode($hotels_list['facility_id']); ?>"
-                                                                    data-hotel="<?php echo base64_encode($hotels_list['hotel_id']); ?>"
-                                                                    data-amen="<?php echo $hotels_list['facility_name']; ?>">X</button>
-
+                                                            <a href="manage_nearby_list.php?hotelid=<?php echo base64_encode($hotelid); ?>&&bid?bid=<?php echo base64_encode($hotels_list['id']); ?>">Manage</a>
+                                                            <br>
                                                             </div>
                                                         </div>
                                                     </td>

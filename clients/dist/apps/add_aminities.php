@@ -47,9 +47,8 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                             <h1 class="mb-1 mt-1">Add / Amenities</h1>
                         </div>
                         <div class="col-lg-6 col-md-12 text-md-right">
-                            <a href="add_business.php" class="btn btn-secondary">Manage Hotel</a>
-                            <a href="add_business.php" class="btn btn-secondary">Manage Amenities</a>
-
+                            <a href="manage_aminities?hotelid=<?php echo base64_encode($hotelid); ?>" class="btn btn-secondary">Manage Hotel</a>
+                            <!-- <a href="add_business.php" class="btn btn-secondary">Manage Amenities</a> -->
                         </div>
                     </div>
                 </div>

@@ -79,7 +79,7 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                                             <?php
                                             // Initialize the Manager class and create an instance of it
                                             $app = new Manager();
-                                            $selectSql = "SELECT  * FROM hotel_gallery where hotel_id=:hotel_id order by id desc";
+                                            $selectSql = "SELECT * FROM hotel_gallery where hotel_id=:hotel_id order by id desc";
                                             $params = [
                                                 ':hotel_id' => $hotelid, // only inactive hotels are displayed in the table, change 'no' to 'yes' to display active hotels
                                             ];

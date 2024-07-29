@@ -100,7 +100,7 @@ $hotelid = base64_decode($app->get_request('hotelid'));
 
                                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 
-                                                            <a href="manage_nearby_list.php?hotelid=<?php echo base64_encode($hotelid); ?>&&bid?bid=<?php echo base64_encode($hotels_list['id']); ?>">Manage</a>
+                                                            <a href="manage_nearby_list.php?hotelid=<?php echo base64_encode($hotelid); ?>&&bid=<?php echo base64_encode($hotels_list['id']); ?>">Manage</a>
                                                             <br>
                                                             </div>
                                                         </div>

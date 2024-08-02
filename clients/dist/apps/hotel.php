@@ -57,10 +57,10 @@ foreach ($hotels as $hotels_details);
                             <a href="manage_aminities.php?hotelid=<?php echo base64_encode($hotelid); ?>"
                                 class="btn btn-secondary">Manage Amenities</a>
                             <a href="manage_nearby.php?hotelid=<?php echo base64_encode($hotelid); ?>" class="btn btn-secondary">Hotel surroundings</a>
-                            <a href="add_business.php" class="btn btn-secondary">House rules</a>
+                            <a href="hotel_profile_update.php?hotelid=<?php echo base64_encode($hotelid); ?>" class="btn btn-secondary">Profile</a>
                             <a href="hotel-gallery.php?hotelid=<?php echo base64_encode($hotelid); ?>"
                                 class="btn btn-secondary">Gallery</a>
-                            <a href="add_business.php" class="btn btn-secondary">Manage Rooms</a>
+                            <a href="manage_room_category.php?hotelid=<?php echo base64_encode($hotelid); ?>" class="btn btn-secondary">Manage Rooms</a>
                         </div>
                     </div>
                 </div>
@@ -140,141 +140,7 @@ foreach ($hotels as $hotels_details);
                                 </ul>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="header">
-                                <h2>What's Nearby</h2>
-                            </div>
-                            <div class="body">
-                                <h5><i class="zmdi zmdi-graduation-cap mr-2"></i>Education</h5>
-                                <ul class="list-unstyled amenities-list mb-0">
-                                    <li class="d-flex justify-content-between">
-                                        <div>Eladia's Kids (3.13 km)</div>
-                                        <div>
-                                            <span>10k reviews</span>
-                                            <span class="rating ml-4 hidden-xs">
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star-outline text-warning"></i>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex justify-content-between">
-                                        <div>Gear Up With ACLS (4.66 km)</div>
-                                        <div>
-                                            <span>5k reviews</span>
-                                            <span class="rating ml-4 hidden-xs">
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star-outline text-warning"></i>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex justify-content-between">
-                                        <div>Brooklyn Brainery (3.31 km)</div>
-                                        <div>
-                                            <span>2k reviews</span>
-                                            <span class="rating ml-4 hidden-xs">
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star-outline text-warning"></i>
-                                            </span>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <hr>
-                                <h5><i class="zmdi zmdi-hospital-alt mr-2"></i>Health & Medical</h5>
-                                <ul class="list-unstyled amenities-list mb-0">
-                                    <li class="d-flex justify-content-between">
-                                        <div>Eladia's Kids (3.13 km)</div>
-                                        <div>
-                                            <span>556 reviews</span>
-                                            <span class="rating ml-4 hidden-xs">
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex justify-content-between">
-                                        <div>Gear Up With ACLS (4.66 km)</div>
-                                        <div>
-                                            <span>3k reviews</span>
-                                            <span class="rating ml-4 hidden-xs">
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex justify-content-between">
-                                        <div>Brooklyn Brainery (3.31 km)</div>
-                                        <div>
-                                            <span>2.1k reviews</span>
-                                            <span class="rating ml-4 hidden-xs">
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star-outline text-warning"></i>
-                                            </span>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <hr>
-                                <h5><i class="zmdi zmdi-truck mr-2"></i>Transportation</h5>
-                                <ul class="list-unstyled amenities-list mb-0">
-                                    <li class="d-flex justify-content-between">
-                                        <div>Eladia's Kids (3.13 km)</div>
-                                        <div>
-                                            <span>3.2k reviews</span>
-                                            <span class="rating ml-4 hidden-xs">
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star-outline text-warning"></i>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex justify-content-between">
-                                        <div>Gear Up With ACLS (4.66 km)</div>
-                                        <div>
-                                            <span>5k reviews</span>
-                                            <span class="rating ml-4 hidden-xs">
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li class="d-flex justify-content-between">
-                                        <div>Brooklyn Brainery (3.31 km)</div>
-                                        <div>
-                                            <span>3k reviews</span>
-                                            <span class="rating ml-4 hidden-xs">
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star text-warning"></i>
-                                                <i class="zmdi zmdi-star-outline text-warning"></i>
-                                            </span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        
                         <div class="card">
                             <div class="header">
                                 <h2>Property Location <small>Description text here...</small> </h2>

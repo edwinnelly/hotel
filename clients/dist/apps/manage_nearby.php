@@ -49,8 +49,7 @@ $hotelid = base64_decode($app->get_request('hotelid'));
                         <div class="col-lg-6 col-md-12 text-md-right">
                             <a href="hotel?hotelid=<?php echo base64_encode($hotelid); ?>"
                                 class="btn btn-secondary">Manage Hotel</a>
-                            <a href="add_aminities.php?hotelid=<?php echo base64_encode($hotelid); ?>"
-                                class="btn btn-secondary">Add Amenities</a>
+                            
 
                         </div>
                     </div>
@@ -100,7 +99,7 @@ $hotelid = base64_decode($app->get_request('hotelid'));
 
                                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 
-                                                            <a href="manage_nearby_list.php?hotelid=<?php echo base64_encode($hotelid); ?>&&bid=<?php echo base64_encode($hotels_list['id']); ?>">Manage</a>
+                                                            <a href="manage_nearby_list.php?hotelid=<?php echo base64_encode($hotelid); ?>&&bid=<?php echo base64_encode($hotels_list['id']); ?>&&title=<?php echo base64_encode($hotels_list['name']); ?>">Manage</a>
                                                             <br>
                                                             </div>
                                                         </div>

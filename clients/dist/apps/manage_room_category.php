@@ -2,8 +2,6 @@
 include "../config/auth_verify.php";
 //hotel id
 $hotelid = base64_decode($app->get_request('hotelid'));
-$cat_id = base64_decode($app->get_request('bid'));
-$title = base64_decode($app->get_request('title'));
 ?>
 <!doctype html>
 <html class="no-js " lang="en">
@@ -46,15 +44,14 @@ $title = base64_decode($app->get_request('title'));
                                 <li class="breadcrumb-item"><a href="app">Home</a></li>
                                 <li class="breadcrumb-item active">Hotel</li>
                             </ul>
-                            <h1 class="mb-1 mt-1">Hotel surroundings list / <?php echo $title; ?></h1>
+                            <h1 class="mb-1 mt-1">Room Manager / Quick Setup</h1>
                         </div>
                         <div class="col-lg-6 col-md-12 text-md-right">
                             <a href="hotel?hotelid=<?php echo base64_encode($hotelid); ?>"
-                                class="btn btn-secondary">Manage Hotel</a>
-                            <a href="add_suroundings.php?hotelid=<?php echo base64_encode($hotelid); ?>"
-                                class="btn btn-secondary">Add surroundings</a>
-                            <a href="manage_nearby.php?hotelid=<?php echo base64_encode($hotelid); ?>"
-                                class="btn btn-secondary">Hotel surroundings </a>
+                                class="btn btn-secondary">Manage Hotel / Stays</a>
+                            <a href="setup_stays_rooms.php?hotelid=<?php echo base64_encode($hotelid); ?>"
+                                class="btn btn-secondary">Add Room</a>
+
                         </div>
                     </div>
                 </div>
@@ -70,10 +67,10 @@ $title = base64_decode($app->get_request('title'));
                                         <thead>
                                             <tr>
                                                 <th>ID</th>
-                                                <th>Names</th>
-                                                <th>Description</th>
-                                                <th>Distance</th>
-                                                <th>Created on</th>
+                                                <th>Room Category</th>
+                                                <th>Room Price</th>
+                                                <th>Custom Amenities</th>
+                                                <th>Added Date </th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
@@ -81,11 +78,9 @@ $title = base64_decode($app->get_request('title'));
                                             <?php
                                             // Initialize the Manager class and create an instance of it
                                             $app = new Manager();
-                                            $selectSql = "SELECT  * FROM nearby_places where  category_id=:category_id and hotel_id=:hotel_id";
-                                            //create array for hotel data
+                                            $selectSql = "SELECT  * FROM hotel_room_category where hotel_id=:hotel_id";
                                             $params = [
                                                 ':hotel_id' => $hotelid, // only inactive hotels are displayed in the table, change 'no' to 'yes' to display active hotels
-                                                ':category_id' => $cat_id
                                             ];
                                             $hotels = $app->fetchData($selectSql, $params);
                                             // Display fetched records
@@ -97,16 +92,16 @@ $title = base64_decode($app->get_request('title'));
                                                         <?php echo $sn++; ?>
                                                     </td>
                                                     <td>
-                                                        <?php echo $hotels_list['name']; ?>
+                                                        <?php echo $hotels_list['category_name']; ?>
                                                     </td>
                                                     <td>
-                                                        <?php echo $hotels_list['description']; ?>
+                                                        <?php echo $hotels_list['price']; ?>
                                                     </td>
                                                     <td>
-                                                        <?php echo $hotels_list['distance']; ?>KM
+                                                        <?php echo $hotels_list['custom_amenities']; ?>
                                                     </td>
                                                     <td>
-                                                        <?php echo $hotels_list['created_at']; ?>
+                                                        <?php echo $hotels_list['dated_added']; ?>
                                                     </td>
 
                                                     <td>
@@ -118,12 +113,12 @@ $title = base64_decode($app->get_request('title'));
                                                             </a>
 
                                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-
-                                                                <button class="dropdown-item delete_emp"
-                                                                    data-id="<?php echo base64_encode($hotels_list['id']); ?>"
-                                                                    data-hotel="<?php echo base64_encode($hotels_list['hotel_id']); ?>"
-                                                                    data-amen="<?php echo $hotels_list['name']; ?>">X</button>
-                                                                <br>
+                                                                <button class="dropdown-item delete_emp">Manage
+                                                                    Room</button>
+                                                                <button class="dropdown-item delete_emp">Change
+                                                                    Price</button>
+                                                                <button class="dropdown-item delete_emp">Delete
+                                                                    Room</button>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -148,6 +143,7 @@ $title = base64_decode($app->get_request('title'));
         </div>
 
 
+
         <div class="modal fade" id="defaultModal" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -166,20 +162,21 @@ $title = base64_decode($app->get_request('title'));
                     <div class="modal-footer">
 
                         <button type="button" class="btn btn-success btn-simple waves-effect" id="delete_emp"
-                            data-dismiss="modal">Delete
-                        </button>
-                        <button type="button" class="btn btn-danger btn-simple waves-effect" data-dismiss="modal">X
-                        </button>
+                            data-dismiss="modal">Delete</button>
+                        <button type="button" class="btn btn-danger btn-simple waves-effect"
+                            data-dismiss="modal">X</button>
                     </div>
                 </div>
             </div>
         </div>
 
 
+
         <!-- Default Size -->
 
 
     </div>
+
 
 
     <!-- Jquery Core Js -->
@@ -227,7 +224,7 @@ $title = base64_decode($app->get_request('title'));
                     btn.attr('disabled', false).html('<i class="fa fa-spin fa-spinner"></i> Try Again...');
                 } else {
                     $.ajax({
-                        url: "ajax/hotel/delete_suroundings",
+                        url: "ajax/hotel/delete_amenities",
                         method: "POST",
                         data: {
                             id_del: id_del, hotelid: hotelid
@@ -241,7 +238,7 @@ $title = base64_decode($app->get_request('title'));
 
                                 Swal.fire({
                                     title: "success!",
-                                    text: "Surrounding Deleted, Please wait redirecting...!",
+                                    text: "Amenities Deleted, Please wait redirecting...!",
                                     icon: "success",
                                 });
 
